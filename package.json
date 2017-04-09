@@ -1,6 +1,6 @@
 {
   "name": "react-document",
-  "version": "0.5.0-rc",
+  "version": "0.5.0",
   "description": "Customizable default Document component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
