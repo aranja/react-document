@@ -54,14 +54,14 @@ Optional. Array of React elements to render inside the \<head> tag.
 Optional. Array of React elements to render in the footer, after the
 content of the page.
 
-##### - css?: string[]
+##### - js?: string[]
 
 Optional. Array of urls to load with script tags. These are placed in
 the \<head> with the [defer attribute](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#attr-defer).
 This allows the browser to start preloading the script but delay
 execution until the DOM is ready.
 
-##### - js?: string[]
+##### - css?: string[]
 
 Optional. Array of urls to load with stylesheet link tags in the head.
 
