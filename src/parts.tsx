@@ -1,10 +1,11 @@
 import * as React from 'react'
+import * as PropTypes from 'prop-types'
 import * as serialize from 'serialize-javascript'
-import { DocumentProps } from './Document'
+import { DocumentProps, documentPropTypes } from './Document'
 
 export abstract class DocumentPart<Props> extends React.Component<Props, any> {
   static contextTypes = {
-    documentProps: React.PropTypes.object.isRequired
+    documentProps: PropTypes.shape(documentPropTypes).isRequired
   }
 
   context: {

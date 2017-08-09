@@ -10,6 +10,7 @@
     "prepublish": "tsc"
   },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "serialize-javascript": "1.3.0"
   },
   "peerDependencies": {
@@ -28,6 +29,8 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^8.0.20",
+    "@types/prop-types": "^15.5.1",
     "@types/react": "^15.0.21",
     "react": "^15.0.0",
     "typescript": "^2.2.2"
