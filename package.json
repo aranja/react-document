@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": "aranja/react-document",
   "scripts": {
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
