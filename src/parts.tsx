@@ -78,7 +78,7 @@ export class Footer extends DocumentPart<any> {
         {window && (
           <script dangerouslySetInnerHTML={{ __html:
             Object.keys(window).map(key =>
-              `window[${key}] = ${serialize(window[key])};`
+              `window['${key}'] = ${serialize(window[key])};`
             ).join('\n')
           }} />
         )}
