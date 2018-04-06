@@ -76,15 +76,16 @@ Inspired by [Next.js](https://github.com/zeit/next.js), it's easy to customize
 the Document without breaking other integrations:
 
 ```javascript
+import React from 'react'
 import Document, { Html, Head, Body, App, Footer } from 'react-document'
 
-export class MyDocument extends Document {
+export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
           {/* Roboto */}
-          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         </Head>
         <Body>
           <App />
